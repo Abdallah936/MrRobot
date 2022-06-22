@@ -1,0 +1,83 @@
+.container{position: relative;
+  }
+.welcome {
+  background-color: #2cbbef;
+  background-attachment: fixed;
+  background-size: cover;
+  line-height: 1.8;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+  
+  position:absolute;
+}
+.logoPosi{
+  top: 100px;
+  left: 50px;
+  width:10rem;
+  height:10rem;
+  z-index:10000;
+}
+.welcome--logo {
+  width: 10rem;
+}
+
+.welcome--about {
+  padding: 2rem;
+  width: 50rem;
+  background-color: rgb(61, 219, 79);
+  background-attachment: fixed;
+  background-size: cover;
+  line-height: 1.8;
+  width: 100%;
+  height: 50rem;
+  color: black;
+  text-align: justify;
+  margin: auto;
+}
+
+.welcome__cta-primary {
+  background: #4f8df1;
+  color: #fff;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 20px;
+  font-weight: 700;
+}
+.description {
+  margin-top: 110rem;
+  line-height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+.description2 {
+  padding-right: 40rem;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  font-size: 2rem;
+  font-weight: 200;
+}
+.description3 {
+  padding-right: 4rem;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 200;
+}
