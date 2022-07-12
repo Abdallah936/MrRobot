@@ -1,5 +1,6 @@
-.container{position: relative;
-  }
+.container {
+  position: relative;
+}
 .welcome {
   background-color: #2cbbef;
   background-attachment: fixed;
@@ -15,15 +16,13 @@
 .logo {
   width: 100%;
   height: 100%;
-  
-  position:absolute;
 }
-.logoPosi{
+.logoPosi {
   top: 100px;
   left: 50px;
-  width:10rem;
-  height:10rem;
-  z-index:10000;
+  width: 10rem;
+  height: 10rem;
+  z-index: 10000;
 }
 .welcome--logo {
   width: 10rem;

@@ -4,7 +4,8 @@ import Car from "../hooks/Car";
 import About from "./About";
 import CarouselB from "../Components/Carousel/CarouselB";
 import Memory from "./Memory/Memory";
-import reflexion from "../img/reflexion.gif";
+import reflexion from "../img/1.jpg";
+
 const Welcome = ({ element }) => {
   return (
     <main>
@@ -61,6 +62,7 @@ const Welcome = ({ element }) => {
       <About />
       <About />
       <Memory />
+
       <CarouselB />
     </main>
   );
